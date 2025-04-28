@@ -1,0 +1,19 @@
+In kali terminal
+
+1. sudo apt update
+2. sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager -y
+3. lsmod | grep kvm
+4. kvm-ok (If it suggest install cpu-checker - sudo apt install cpu-checker)
+5. sudo systemctl enable libvirtd
+6. sudo systemctl start libvirtd
+7. virt-manager
+8. Create a Virtual Machine
+	1. Click File → New Virtual Machine.
+	2. Choose Local install media (ISO image).
+	3. Select your downloaded Linux or Windows ISO.
+	4. Allocate RAM and CPU.
+	5. Create a Virtual Disk.
+	6. Finish setup
+
+ubuntu terminal download cmd: wget https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
+once finished download enter the path to 8.2 

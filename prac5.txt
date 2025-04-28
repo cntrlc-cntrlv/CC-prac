@@ -1,0 +1,5 @@
+Create 2 vm.
+Go to network setting. Add an adapter. Disable the adapter1 enable the adapter2. select configure adapter automatically. enable dhcp server.
+
+1. ip addr
+2. ping (ip of 2nd device) -c 4

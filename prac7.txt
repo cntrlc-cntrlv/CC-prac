@@ -1,0 +1,5 @@
+Kubernetes installation link: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
+Docker installation link: https://docs.docker.com/desktop/setup/install/linux/
+
+For windows:
+Download the setup for docker desktop. Install the application. Kuberenets can be installed using docker. Open docker go to settings check the box that says enable kuberenets.  

@@ -1,0 +1,12 @@
+Both VM cmds:
+1. sudo apt update
+2. sudo apt install openssh-server
+3. sudo systemctl start ssh
+4. sudo systemctl enable ssh
+
+On sender device:
+1. Create a file
+2. scp ~/Desktop/abc.txt kali@10.0.2.15/home/kali/Desktop
+
+On receiver device:
+1. ip addr - This will give the ip address of the kali. Take ip inet eg. 10.0.2.15
